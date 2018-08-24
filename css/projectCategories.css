@@ -1,0 +1,49 @@
+#projectCategories{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #20bf6b;
+  margin-bottom: 4em;
+}
+
+.projectCategoriesHeader{
+  color: #ffffff;
+}
+
+.projectCategoriesText{
+  color: #ffffff;
+  opacity: .80;
+}
+
+.projectCategoriesColumn{
+  justify-content: center;
+}
+
+.projectCategoriesHr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+
+.projectCategoriesIcon{
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  border-color: #ffffff;
+  border-width: 10px;
+}
+
+.projectCategoriesIcon:hover{
+  -webkit-filter: brightness(110%);
+}
+
+#GD:hover ~ #PD{
+  -webkit-filter: brightness(80%);
+}
+
+#GD:hover ~ #PDText{
+  color: #dfe4ea;
+}
+
+#GD:hover ~ #PDHeader{
+  color: #dfe4ea;
+}

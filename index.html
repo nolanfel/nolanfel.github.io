@@ -1,32 +1,878 @@
 <!DOCTYPE html>
 <html lang="en" >
   <head>
-    <title></title>
-  </head>
-  <body>
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/videoHeader.css"/>
+    <link rel="stylesheet" href="css/projectCategories.css"/>
+    <link rel="stylesheet" href="css/projects.css"/>
+    <link rel="stylesheet" href="css/modals.css"/>
+
+    <title>Nolan Felicidario</title>
+  </head>
+  <body data-spy="scroll" data-target="#navigationBar" data-offset="0">
+
+    <nav id="navigationBar" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+
+      <a class="navbar-brand" href="#">
+        <strong>NOLAN FELICIDARIO</strong>
+      </a>
+      <button class="navbar-toggler" name="button" data-toggle="collapse" data-target="#navigationBarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navigationBarMenu">
+        <div class="navbar-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#projectCategories">CATEGORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#companies">COMPANIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
       </div>
+
+<!--
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+        <li class="nav-item addMargins">
+          <a class="fab fa-dribbble-square fa-lg white" href="https://dribbble.com/nolanf" target="_blank"></a>
+        </li>
+
+        <li class="nav-item addMargins">
+          <a class="fab fa-linkedin fa-lg white" href="https://www.linkedin.com/in/nolan-felicidario/" target="_blank"></a>
+        </li>
+      </ul>
+-->
+
     </nav>
 
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Bootstrap Tutorial</h1>
-        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-      </div>
-      <p>This is some text.</p>
-      <p>This is another text.</p>
-    </div>
 
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+
+          <video autoplay muted loop class="videoHeaderVideoOverlay" id="video">
+            <source src="videos/BRoll.mp4" type="video/mp4">
+          </video>
+
+          <!--<div class="videoHeaderContent text-center">
+            <h1 class="display-3 videoHeaderTitle">FORM FOLLOWING FUNCTION</h1>
+          </div> -->
+
+
+        </div>
+      </div>
+    </section>
+
+
+<!-- PROJECT CATEGORIES -->
+
+
+    <section id="projectCategories">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="projectCategoriesHeader">Project Categories</h1>
+            <hr class="projectCategoriesHr">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 text-center">
+            <div class="mt-5 mx-auto">
+              <img id="GD" class="mb-3 projectCategoriesIcon" src="icons/GDIcon2.png"/>
+              <h4 id="GDHeader" class="mb-3 projectCategoriesHeader">Graphic Design</h4>
+              <p id="GDText" class="mb-0 projectCategoriesText">Iconography, typography, photography, logography.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="mt-5 mx-auto">
+              <img id="PD" class="mb-3 projectCategoriesIcon" src="icons/PDIcon2.png"/>
+              <h4 id="PDHeader" class="mb-3 projectCategoriesHeader">Product Development</h4>
+              <p id="PDText" class="mb-0 projectCategoriesText">Strategy, organization, concept generation, commercialization.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="mt-5 mx-auto">
+              <img id="FED" class="mb-3 projectCategoriesIcon" src="icons/FEDIcon2.png"/>
+              <h4 id="FEDHeader" class="mb-3 projectCategoriesHeader">Front End Development</h4>
+              <p id="FEDText" class="mb-0 projectCategoriesText">HTML5, CSS3, JavaScript.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="mt-5 mx-auto">
+              <img id="WD" class="mb-3 projectCategoriesIcon" src="icons/WDIcon2.png"/>
+              <h4 id="WDHeader" class="mb-3 projectCategoriesHeader">Web Design</h4>
+              <p id="WDText" class="mb-0 projectCategoriesText">User interface, user experience, content, engagement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- PROJECTS -->
+
+
+    <section id="projects">
+    <div class="container">
+      <div class="card-deck">
+
+
+<!-- ORB CARD -->
+
+
+        <div class="col-md-4 text-center">
+          <div class="card">
+
+            <div id="carouselOrb" class="carousel slide projectsThumbnailPadding" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselOrb" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselOrb" data-slide-to="1"></li>
+                <li data-target="#carouselOrb" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselOrb" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselOrb" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <div class="row projectsIconRow mt-1">
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Graphic Design" src="icons/GDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Product Development" src="icons/PDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Front End Design" src="icons/FEDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Web Design" src="icons/WDIcon.png"/>
+                </div>
+              </div>
+              <h3 class="card-title mt-4">Orb</h3>
+              <p class="card-text mb-4">
+                A chrome extension for a more perceptive browsing experience.
+              </p>
+              <a href="#" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#OrbModal">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+<!-- PERKSPOT CARD -->
+
+
+        <div class="col-md-4 text-center">
+          <div class="card">
+
+            <div id="carouselPerkSpot" class="carousel slide projectsThumbnailPadding" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselPerkSpot" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselPerkSpot" data-slide-to="1"></li>
+                <li data-target="#carouselPerkSpot" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselPerkSpot" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselPerkSpot" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <div class="row projectsIconRow mt-1">
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Graphic Design" src="icons/GDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Product Development" src="icons/PDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Front End Design" src="icons/FEDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Web Design" src="icons/WDIcon.png"/>
+                </div>
+              </div>
+              <h3 class="card-title mt-4">PerkSpot</h3>
+              <p class="card-text mb-4">
+                Employee discount program provider.
+              </p>
+              <a href="#" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#PerkSpotModal">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+<!-- MICHIGAN FISHING CARD -->
+
+
+        <div class="col-md-4 text-center">
+          <div class="card">
+
+            <div id="carouselMichiganFishing" class="carousel slide projectsThumbnailPadding" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselMichiganFishing" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMichiganFishing" data-slide-to="1"></li>
+                <li data-target="#carouselMichiganFishing" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselMichiganFishing" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselMichiganFishing" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <div class="card-body">
+              <div class="row projectsIconRow mt-1">
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Graphic Design" src="icons/GDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Product Development" src="icons/PDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Front End Design" src="icons/FEDIcon.png"/>
+                </div>
+                <div class="mx-auto">
+                  <img class="projectsIcon" data-toggle="tooltip" data-placement="bottom" title="Web Design" src="icons/WDIcon.png"/>
+                </div>
+              </div>
+              <h3 class="card-title mt-4">Michigan Fishing</h3>
+              <p class="card-text mb-4">
+                University of Michigan's competitive fishing team.
+              </p>
+              <a href="#" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#MichiganFishingModal">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    </section>
+
+
+<!-- MODALS -->
+
+
+
+
+<!-- ORB MODAL -->
+
+
+  <div class="modal fade" id="OrbModal" tabindex="-1" role="dialog" aria-labelledby="OrbModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="OrbModalLabel">Orb</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PROBLEM</h5>
+              <p>Funds needed to support the University of Michigan Fishing community.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA GENERATION</h5>
+              <p>Create a merchandising plan that will raise funds, increase brand awareness, and provide community members with custom gear.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA SCREENING</h5>
+              <ul>
+                <li>The market for raising funds on campus is over-saturated</li>
+                <li>Fishing is a niche sport that would not receive significant traffic if competing with other student organizations</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">MARKETING STRATEGY</h5>
+              <ul>
+                <li>Created a solid, distinct brand.</li>
+                <li>Since target audience is the University of Michigan Fishing Community:</li>
+                <ul>
+                  <li>Used a website and social platforms for digital promotion of products</li>
+                  <li>Used representation at fishing-related conventions and word of mouth for physical promotion of products</li>
+                </ul>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <div id="carouselOrbModal" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselOrbModal" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselOrbModal" data-slide-to="1"></li>
+                <li data-target="#carouselOrbModal" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselOrbModal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselOrbModal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">BUSINESS ANALYSIS</h5>
+              <ul>
+                <li>Low cost of production</li>
+                <li>Funds are currently stagnant</li>
+                <ul>
+                  <li>Not enough funds to significantly support fishing team</li>
+                </ul>
+                <li>Revenue from complete sale of a single order of shirts would nearly triple funds</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PRODUCT DEVELOPMENT</h5>
+              <p>Worked with local printing company to develop finalized designs according to order demands.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">RESULT</h5>
+              <p>
+                Tested merchandising plan with the sale of a single order of shirts
+              </p>
+              <ul>
+                <li>Sold out within two weeks</li>
+                <li>Nearly tripled revenue, as predicted</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IMPROVEMENTS</h5>
+              <ul>
+                <li>Qualitative Feedback:</li>
+                <ul>
+                  <li>Design considered attractive and unique by fishing community</li>
+                </ul>
+                <li>Quantitative Feedback:</li>
+                <ul>
+                  <li>Order size limited</li>
+                  <li>Product diversity limited</li>
+                </ul>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">OTHER NOTABLE PROJECTS</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- PERKSPOT MODAL -->
+
+
+  <div class="modal fade" id="PerkSpotModal" tabindex="-1" role="dialog" aria-labelledby="PerkSpotModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="PerkSpotModalLabel">PerkSpot</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PROBLEM</h5>
+              <p>Funds needed to support the University of Michigan Fishing community.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA GENERATION</h5>
+              <p>Create a merchandising plan that will raise funds, increase brand awareness, and provide community members with custom gear.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA SCREENING</h5>
+              <ul>
+                <li>The market for raising funds on campus is over-saturated</li>
+                <li>Fishing is a niche sport that would not receive significant traffic if competing with other student organizations</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">MARKETING STRATEGY</h5>
+              <ul>
+                <li>Created a solid, distinct brand.</li>
+                <li>Since target audience is the University of Michigan Fishing Community:</li>
+                <ul>
+                  <li>Used a website and social platforms for digital promotion of products</li>
+                  <li>Used representation at fishing-related conventions and word of mouth for physical promotion of products</li>
+                </ul>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <div id="carouselPerkSpotModal" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselPerkSpotModal" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselPerkSpotModal" data-slide-to="1"></li>
+                <li data-target="#carouselPerkSpotModal" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselPerkSpotModal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselPerkSpotModal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">BUSINESS ANALYSIS</h5>
+              <ul>
+                <li>Low cost of production</li>
+                <li>Funds are currently stagnant</li>
+                <ul>
+                  <li>Not enough funds to significantly support fishing team</li>
+                </ul>
+                <li>Revenue from complete sale of a single order of shirts would nearly triple funds</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PRODUCT DEVELOPMENT</h5>
+              <p>Worked with local printing company to develop finalized designs according to order demands.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">RESULT</h5>
+              <p>
+                Tested merchandising plan with the sale of a single order of shirts
+              </p>
+              <ul>
+                <li>Sold out within two weeks</li>
+                <li>Nearly tripled revenue, as predicted</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IMPROVEMENTS</h5>
+              <ul>
+                <li>Qualitative Feedback:</li>
+                <ul>
+                  <li>Design considered attractive and unique by fishing community</li>
+                </ul>
+                <li>Quantitative Feedback:</li>
+                <ul>
+                  <li>Order size limited</li>
+                  <li>Product diversity limited</li>
+                </ul>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">OTHER NOTABLE PROJECTS</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- MICHIGAN FISHING MODAL -->
+
+
+  <div class="modal fade" id="MichiganFishingModal" tabindex="-1" role="dialog" aria-labelledby="MichiganFishingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="MichiganFishingModalLabel">Michigan Fishing</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PROBLEM</h5>
+              <p>Funds needed to support the University of Michigan Fishing community.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA GENERATION</h5>
+              <p>Create a merchandising plan that will raise funds, increase brand awareness, and provide community members with custom gear.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IDEA SCREENING</h5>
+              <ul>
+                <li>The market for raising funds on campus is over-saturated</li>
+                <li>Fishing is a niche sport that would not receive significant traffic if competing with other student organizations</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">MARKETING STRATEGY</h5>
+              <ul>
+                <li>Created a solid, distinct brand.</li>
+                <li>Since target audience is the University of Michigan Fishing Community:</li>
+                <ul>
+                  <li>Used a website and social platforms for digital promotion of products</li>
+                  <li>Used representation at fishing-related conventions and word of mouth for physical promotion of products</li>
+                </ul>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <div id="carouselMichiganFishingModal" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselMichiganFishingModal" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMichiganFishingModal" data-slide-to="1"></li>
+                <li data-target="#carouselMichiganFishingModal" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFLogo.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFLogoText.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFWebsite.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselMichiganFishingModal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselMichiganFishingModal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">BUSINESS ANALYSIS</h5>
+              <ul>
+                <li>Low cost of production</li>
+                <li>Funds are currently stagnant</li>
+                <ul>
+                  <li>Not enough funds to significantly support fishing team</li>
+                </ul>
+                <li>Revenue from complete sale of a single order of shirts would nearly triple funds</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">PRODUCT DEVELOPMENT</h5>
+              <p>Worked with local printing company to develop finalized designs according to order demands.</p>
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">RESULT</h5>
+              <p>
+                Tested merchandising plan with the sale of a single order of shirts
+              </p>
+              <ul>
+                <li>Sold out within two weeks</li>
+                <li>Nearly tripled revenue, as predicted</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <div id="carouselMichiganFishingModal2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="1"></li>
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="2"></li>
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="3"></li>
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="4"></li>
+                <li data-target="#carouselMichiganFishingModal2" data-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="michiganfishing/MFBassShirt.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFBumperSticker.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFReelPoster.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFLogoTextShirt.png" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFRoundStickers.png" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="michiganfishing/MFLogoShirt.png" alt="Sixth slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselMichiganFishingModal2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselMichiganFishingModal2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="row justify-content-center my-3">
+
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">IMPROVEMENTS</h5>
+              <ul>
+                <li>Qualitative Feedback:</li>
+                <ul>
+                  <li>Design considered attractive and unique by fishing community</li>
+                </ul>
+                <li>Quantitative Feedback:</li>
+                <ul>
+                  <li>Order size limited</li>
+                  <li>Product diversity limited</li>
+                </ul>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center my-3">
+            <div class="col col-md-6">
+              <h5 class="modalsHeaderText">OTHER NOTABLE PROJECTS</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- COMPANIES -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
