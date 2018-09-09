@@ -16,6 +16,12 @@
   color: #FEBF13;
 }
 
+.modalsHeaderTextBSI{
+  text-align: center;
+  text-transform: capitalize;
+  color: #6c5ce7;
+}
+
 .modalsBackgroundOrb{
   background-color: rgba(30, 144, 255, 0.5);
 }
@@ -26,4 +32,8 @@
 
 .modalsBackgroundMichiganFishing{
   background-color: rgba(254, 191, 19, 0.5);
+}
+
+.modalsBackgroundBSI{
+  background-color: rgba(108, 92, 231, 0.5);
 }
