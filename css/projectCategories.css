@@ -1,7 +1,7 @@
 #projectCategories{
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #20bf6b;
+  background-color: #2f3542;
   margin-bottom: 4em;
 }
 
@@ -34,16 +34,4 @@
 
 .projectCategoriesIcon:hover{
   -webkit-filter: brightness(110%);
-}
-
-#GD:hover ~ #PD{
-  -webkit-filter: brightness(80%);
-}
-
-#GD:hover ~ #PDText{
-  color: #dfe4ea;
-}
-
-#GD:hover ~ #PDHeader{
-  color: #dfe4ea;
 }

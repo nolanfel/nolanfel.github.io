@@ -14,10 +14,6 @@
   height:2.3em;
 }
 
-.projectsIcon:hover{
-  -webkit-filter: brightness(110%);
-}
-
 .projectsThumbnailPadding{
   padding: .5em .5em 0em .5em;
 }

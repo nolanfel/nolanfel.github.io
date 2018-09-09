@@ -1,5 +1,29 @@
-.modalsHeaderText{
+.modalsHeaderTextOrb{
   text-align: center;
   text-transform: capitalize;
-  color: #2ed573;
+  color: #1E90FF;
+}
+
+.modalsHeaderTextPerkSpot{
+  text-align: center;
+  text-transform: capitalize;
+  color: #5590af;
+}
+
+.modalsHeaderTextMichiganFishing{
+  text-align: center;
+  text-transform: capitalize;
+  color: #FEBF13;
+}
+
+.modalsBackgroundOrb{
+  background-color: rgba(30, 144, 255, 0.5);
+}
+
+.modalsBackgroundPerkSpot{
+  background-color: rgba(85, 144, 175, 0.5);
+}
+
+.modalsBackgroundMichiganFishing{
+  background-color: rgba(254, 191, 19, 0.5);
 }
