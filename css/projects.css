@@ -1,5 +1,5 @@
 #projects{
-  padding-top: 4em;
+  padding-top: 1em;
   padding-bottom: 4em;
   margin-bottom: 4em;
 }
@@ -14,6 +14,29 @@
   height:2.3em;
 }
 
-.projectsThumbnailPadding{
-  padding: .5em .5em 0em .5em;
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card-body:focus{
+  outline: none !important;
+}
+
+.projectsThumbnail:focus{
+  outline: none !important;
+}
+
+.projectsHr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #2f3542;
+}
+
+.projectsHeader{
+  color: #2f3542;
 }

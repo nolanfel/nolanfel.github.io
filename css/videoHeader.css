@@ -1,15 +1,4 @@
-.videoHeaderVideoOverlay{
-}
-
-.videoHeaderContainer{
-  position: relative;
-}
-
-.videoHeaderContent {
+.videoHeaderVideo{
   width: 100%;
-  color: #ffffff;
-}
-
-.videoHeaderTitle{
-  font-weight: bold;
+  height: 100%;
 }

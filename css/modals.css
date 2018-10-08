@@ -1,25 +1,85 @@
+.modalsIconRow{
+  align-content: center;
+}
+
+.modalsIcon{
+  width:2.3em;
+  height:2.3em;
+}
+
 .modalsHeaderTextOrb{
   text-align: center;
-  text-transform: capitalize;
   color: #1E90FF;
 }
 
 .modalsHeaderTextPerkSpot{
   text-align: center;
-  text-transform: capitalize;
   color: #5590af;
 }
 
 .modalsHeaderTextMichiganFishing{
   text-align: center;
-  text-transform: capitalize;
   color: #FEBF13;
 }
 
 .modalsHeaderTextBSI{
   text-align: center;
-  text-transform: capitalize;
   color: #6c5ce7;
+}
+
+.modalsHeaderTextSOP{
+  text-align: center;
+  color: #1193F5;
+}
+
+.modalsHeaderTextLF{
+  text-align: center;
+  color: #1ABC9C;
+}
+
+.modalsHeaderTextTCC{
+  text-align: center;
+  color: #2ECC71;
+}
+
+.modalsHeaderTextSami{
+  text-align: center;
+  color: #E64B3B;
+}
+
+.modalsHeaderTextFASA{
+  text-align: center;
+  color: #FED330;
+}
+
+.modalsHeaderTextWQ{
+  text-align: center;
+  color: #30336B;
+}
+
+.modalsHeaderTextEAT{
+  text-align: center;
+  color: #A4B0BE;
+}
+
+.modalsHeaderTextWWYT{
+  text-align: center;
+  color: #FF6B81;
+}
+
+.modalsHeaderTextES{
+  text-align: center;
+  color: #BDC3C7;
+}
+
+.modalsHeaderTextSC{
+  text-align: center;
+  color: #BDC3C7;
+}
+
+.modalsHeaderTextRPD{
+  text-align: center;
+  color: #BDC3C7;
 }
 
 .modalsBackgroundOrb{
@@ -36,4 +96,48 @@
 
 .modalsBackgroundBSI{
   background-color: rgba(108, 92, 231, 0.5);
+}
+
+.modalsBackgroundSOP{
+  background-color: rgba(17, 147, 245, 0.5);
+}
+
+.modalsBackgroundLF{
+  background-color: rgba(26, 188, 156, 0.5);
+}
+
+.modalsBackgroundTCC{
+  background-color: rgba(46, 204, 113, 0.5);
+}
+
+.modalsBackgroundSami{
+  background-color: rgba(230, 75, 59, 0.5);
+}
+
+.modalsBackgroundFASA{
+  background-color: rgba(254, 211, 48, 0.5);
+}
+
+.modalsBackgroundWQ{
+  background-color: rgba(48, 51, 107, 0.5);
+}
+
+.modalsBackgroundEAT{
+  background-color: rgba(164, 176, 190, 0.5);
+}
+
+.modalsBackgroundWWYT{
+  background-color: rgba(255, 107, 129, 0.5);
+}
+
+.modalsBackgroundES{
+  background-color: rgba(189, 195, 199, 0.5);
+}
+
+.modalsBackgroundSC{
+  background-color: rgba(189, 195, 199, 0.5);
+}
+
+.modalsBackgroundRPD{
+  background-color: rgba(189, 195, 199, 0.5);
 }
