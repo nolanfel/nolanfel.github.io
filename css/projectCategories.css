@@ -31,7 +31,3 @@
   border-color: #ffffff;
   border-width: 10px;
 }
-
-.projectCategoriesIcon:hover{
-  -webkit-filter: brightness(110%);
-}
