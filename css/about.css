@@ -1,13 +1,13 @@
 #about{
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 6em;
   background-color: #2f3542;
-  margin-bottom: 4em;
 }
 
-#about2{
-  padding-bottom: 3em;
-  margin-bottom: 4em;
+.aboutHr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #ffffff;
 }
 
 .aboutHeader{

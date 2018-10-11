@@ -141,3 +141,91 @@
 .modalsBackgroundRPD{
   background-color: rgba(189, 195, 199, 0.5);
 }
+
+#SamiLogos{
+  color:#747d8c;
+}
+
+#OrbLogos{
+  color:#747d8c;
+}
+
+#PSMiscellaneous{
+  color: #747d8c;
+}
+
+#MFProducts{
+  color: #747d8c;
+}
+
+#MFWebsite{
+  color: #747d8c;
+}
+
+#MFMiscellaneous{
+  color: #747d8c;
+}
+
+#BSILogos{
+  color: #747d8c;
+}
+
+#BSIWebsite{
+  color: #747d8c;
+}
+
+#SOPFliers {
+  color: #747d8c;
+}
+
+#SOPWebsite {
+  color: #747d8c;
+}
+
+#SOPMiscellaneous {
+  color: #747d8c;
+}
+
+#carouselSOPModal3 {
+  display: none;
+}
+
+#carouselSOPModal4 {
+  display: none;
+}
+
+#carouselSOPModal5 {
+  display: none;
+}
+
+#carouselBSIModal2 {
+  display: none;
+}
+
+#carouselBSIModal3 {
+  display: none;
+}
+
+#carouselMichiganFishingModal2{
+  display: none;
+}
+
+#carouselMichiganFishingModal3{
+  display: none;
+}
+
+#carouselMichiganFishingModal4{
+  display: none;
+}
+
+#carouselPerkSpotModal2{
+  display: none;
+}
+
+#carouselOrbModal2{
+  display:none;
+}
+
+#carouselSamiModal2{
+  display:none;
+}
