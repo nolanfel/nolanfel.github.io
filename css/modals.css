@@ -142,48 +142,84 @@
   background-color: rgba(189, 195, 199, 0.5);
 }
 
-#SamiLogos{
-  color:#747d8c;
-}
 
 #OrbLogos{
   color:#747d8c;
+  cursor:pointer;
+}
+
+#OrbChrome{
+  cursor:pointer;
+}
+
+#PSChrome{
+  cursor:pointer;
 }
 
 #PSMiscellaneous{
   color: #747d8c;
+  cursor:pointer;
+}
+
+#MFLogos{
+  cursor:pointer;
 }
 
 #MFProducts{
   color: #747d8c;
+  cursor:pointer;
 }
 
 #MFWebsite{
   color: #747d8c;
+  cursor:pointer;
 }
 
 #MFMiscellaneous{
   color: #747d8c;
+  cursor:pointer;
+}
+
+#BSIChrome{
+  cursor:pointer;
 }
 
 #BSILogos{
   color: #747d8c;
+  cursor:pointer;
 }
 
 #BSIWebsite{
   color: #747d8c;
+  cursor: pointer;
+}
+
+#SOPLogos {
+  cursor: pointer;
 }
 
 #SOPFliers {
   color: #747d8c;
+  cursor: pointer;
 }
 
 #SOPWebsite {
   color: #747d8c;
+  cursor: pointer;
 }
 
 #SOPMiscellaneous {
   color: #747d8c;
+  cursor:pointer;
+}
+
+#SamiWebsite{
+  cursor:pointer;
+}
+
+#SamiLogos{
+  color:#747d8c;
+  cursor:pointer;
 }
 
 #carouselSOPModal3 {
